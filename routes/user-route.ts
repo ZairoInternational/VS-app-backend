@@ -6,7 +6,7 @@ import Traveller from "../models/traveller";
 import {login,register,getUser, updateProfilePic, sendEmail, updateProfile} from "../controllers/UserController";
 import express, { Request, Response } from 'express';
 import { get } from 'http';
-import { updateCouponUsage } from '@/controllers/discountCouponControllers';
+// import { updateCouponUsage } from '@/controllers/discountCouponControllers';
 
 
 const router = express.Router();

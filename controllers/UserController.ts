@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 // import { OAuth2Client } from "google-auth-library";
-import Traveller from "@/models/traveller"
+import Traveller from "../models/traveller"
 // import { create } from "domain";
 import dotenv from 'dotenv';
 dotenv.config(); 

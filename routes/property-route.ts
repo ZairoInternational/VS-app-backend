@@ -4,7 +4,7 @@ import {
   getAllProperties,
   getParticularProperty,
   getProperties,
-} from "@/controllers/PropertyController";
+} from "../controllers/PropertyController";
 const router = express.Router();
 
 router.post("/getAllProperties", getAllProperties);

@@ -2,7 +2,7 @@ import { Document } from "mongodb";
 import { FilterQuery } from "mongoose";
 import { Request, Response, RequestHandler } from "express";
 
-import { PropertyInterface } from "@/types";
+import { PropertyInterface } from "../types";
 import { Properties } from "@/models/Properties";
 
 export interface FetchPropertiesRequest {
