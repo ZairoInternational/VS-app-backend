@@ -6,19 +6,19 @@ import passport from "passport";
 import session from "express-session";
 
 
-import connectMongoDB from "@/config/Connection";
-import propertyRoutes from "@/routes/property-route";
-import userRoutes from "@/routes/user-route";
-import couponRoutes from "@/routes/discount-coupon-route";
-import wishlistRoutes from "@/routes/wishlist-routes";
-import "@/config/passport";
+import connectMongoDB from "../config/Connection";
+import propertyRoutes from "../routes/property-route";
+import userRoutes from "../routes/user-route";
+import couponRoutes from "../routes/discount-coupon-route";
+import wishlistRoutes from "../routes/wishlist-routes";
+// import "@/config/passport";
 
 
 dotenv.config();
 connectMongoDB();
 
 const app: Application = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT ;
 app.use(cors());
 
 
