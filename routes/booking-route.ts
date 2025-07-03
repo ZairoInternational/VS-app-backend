@@ -3,7 +3,7 @@ import  express  from "express";
 import {
     createBooking,
     getBookingsByUser,
-} from "@/controllers/bookingController";
+} from "../controllers/bookingController";
 const router = express.Router();
 
 router.post("/create-booking", createBooking);
