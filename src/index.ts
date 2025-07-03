@@ -11,7 +11,9 @@ import propertyRoutes from "../routes/property-route";
 import userRoutes from "../routes/user-route";
 import couponRoutes from "../routes/discount-coupon-route";
 import wishlistRoutes from "../routes/wishlist-routes";
-// import "@/config/passport";
+import bookingRoutes from "@/routes/booking-route";
+import ownerRoutes from "@/routes/users-route";
+
 
 
 dotenv.config();
@@ -43,7 +45,8 @@ app.use("/properties", propertyRoutes);
 app.use("/user", userRoutes);
 app.use("/wishlist", wishlistRoutes);
 app.use("/coupon", couponRoutes);
-
+app.use("/booking", bookingRoutes);
+app.use("/owner", ownerRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
