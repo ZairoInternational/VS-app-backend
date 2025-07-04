@@ -7,6 +7,7 @@ import Traveller from '../models/traveller';
 import { Properties } from '../models/Properties';
 
 
+
 export const getBookingsByUser = async (req: Request, res: Response) => {
   try {
     console.log(mongoose.models);
