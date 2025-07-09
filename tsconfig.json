@@ -39,7 +39,9 @@
     "controllers/**/*.ts",
     "./models/**/*.ts",
     "./routes/**/*.ts",
-    "./helper/**/*.ts"
+    "./helper/**/*.ts",
+    "./custom.d.ts"
+    
   ],
   "exclude": ["node_modules", "dist"]
 }
