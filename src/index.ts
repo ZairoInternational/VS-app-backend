@@ -13,7 +13,7 @@ import couponRoutes from "../routes/discount-coupon-route";
 import wishlistRoutes from "../routes/wishlist-routes";
 import bookingRoutes from "../routes/booking-route";
 import ownerRoutes from "../routes/users-route";
-import paymentRoutes from "@/routes/payment-route";
+import paymentRoutes from "../routes/payment-route";
 
 
 
