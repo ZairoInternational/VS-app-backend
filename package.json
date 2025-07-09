@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon -r tsconfig-paths/register --exec ts-node src/index.ts",
     "build": "tsc",
-    "start":  "node dist/src/index.js"
-
+    "start": "node dist/src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -48,6 +47,7 @@
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.1",
+    "razorpay": "^2.9.6",
     "tsconfig-paths": "^4.2.0"
   }
 }
